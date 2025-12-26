@@ -22,7 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-# Large video files (use Git LFS separately if needed)
-src/assets/videos/*.mp4
-!src/assets/videos/README.md
