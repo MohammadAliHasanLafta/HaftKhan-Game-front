@@ -33,7 +33,7 @@ let skipTimer = null
 
 const loadVideo = async () => {
   try {
-    const videoModule = await import('../assets/videos/story-intro.mp4')
+    const videoModule = await import('../assets/videos/story-intro1.mp4')
     videoSrc.value = videoModule.default
   } catch (e) {
     console.error('Failed to load story video:', e)
